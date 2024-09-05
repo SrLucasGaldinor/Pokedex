@@ -14,16 +14,26 @@
 
 <body>
     <main>
+        <!--Imagem da Pokedex e GIF do Pokemon-->
         <img src="/imagens/pokedex.png" alt="Pokédex" class="pokedex">
         <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/6.gif"
             alt="Pokemon" class="pokemon">
+
+        <!--Informações sobre o Pokemon-->
         <div class="pokemon-info">
-            <span class="pokemon-number">6</span> -
-            <span class="pokemon-name">Charizard</span>
+            <span class="pokemon-number"></span> -
+            <span class="pokemon-name"></span>
         </div>
-        <input type="search" class="pokemon-search" placeholder="Number or Name">
+
+        <!--Formulário que solicita o Number(ID) ou o Name(Pokemon)-->
+        <form class="form">
+            <input type="search" class="pokemon-search" placeholder="Number or Name" required/>
+        </form>
+
+        <!--Botões de seleção de próximo e anterior-->
         <button class="buttons btn-prev">&lt; PREV</button>
         <button class="buttons btn-next">NEXT &gt;</button>
+
     </main>
 </body>
 

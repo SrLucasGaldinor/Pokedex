@@ -37,11 +37,16 @@ main {
     font-weight: 600;
 }
 
+.pokemon-name {
+    text-transform: capitalize;
+}
+
 .pokemon-number {
     color: #AAA;
 }
 
 .pokemon-search {
+    outline: none;
     position: absolute;
     text-align: center;
     top: 52%;

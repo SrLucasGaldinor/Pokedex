@@ -8,7 +8,7 @@
 <li>Visualização de uma lista de Pokémon.</li>
 <li>Busca de Pokémon por nome ou ID.</li>
 <li>Exibição de detalhes do Pokémon selecionado, incluindo tipo, habilidades e estatísticas.</li>
-<li>Design responsivo para diferentes tamanhos de tela.</li>
+<li>Design responsivo para diferentes tamanhos de tela.(Faltam melhorias significavas na Responsividade)</li>
 </ul>
 <h2>Tecnologias Utilizadas</h2>
 <ul>
